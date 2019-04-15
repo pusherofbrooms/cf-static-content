@@ -1,0 +1,8 @@
+---
+applications:
+- name: hellotest
+  memory: 128M
+  instances: 1
+  buildpack: staticfile_buildpack
+  stack: cflinuxfs3
+  random-route: true
